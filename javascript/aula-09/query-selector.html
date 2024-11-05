@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: grey;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Query Selector Examples</h1>
+    <p id="prg">Selecionar por classe</p>
+    <div class="dv">Selecionar por id</div>
+    <script>
+        // abaixo seleciona por ID
+        var p = window.document.querySelector('p#prg');
+        p.style.background = 'blue';
+        // Abaixo seleciona por classe
+        var d = window.document.querySelector('div.dv');
+        d.style.background = 'yellow';
+        d.style.color = 'black';
+    </script>
+</body>
+</html>

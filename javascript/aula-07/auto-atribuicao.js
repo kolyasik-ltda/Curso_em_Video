@@ -1,0 +1,58 @@
+// Auto atribuição.
+console.log(`===== AUTO ATRIBUICAO =====`);
+var number_00 = parseInt(3);
+console.log(`var number_00 =`,number_00);
+console.log();
+number_00 = number_00 + 4;
+console.log(`3 + 4 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_00)
+console.log();
+number_00 = number_00 - 5;
+console.log(`7 - 5 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_00);
+console.log();
+number_00 = number_00 * 4;
+console.log(`2 * 4 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_00);
+console.log();
+number_00 = number_00 / 2;
+console.log(`8 / 2 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_00);
+console.log();
+number_00 = number_00 ** 2;
+console.log(`4 ** 2 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_00);
+console.log();
+number_00 = number_00 % 5;
+console.log(`16 % 5 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_00);
+console.log();
+// Auto Atribuição Simplificada
+console.log(`===== AUTO ATRIBUICAO SIMPLIFICADA =====`);
+var number_01 = parseInt(3);
+console.log(`var number_01 =`,number_01);
+console.log();
+number_01 += 4;
+console.log(`3 + 4 =`,number_01);
+console.log(`Now changed variable to number_00 =`,number_01)
+console.log();
+number_01 -= 5;
+console.log(`7 - 5 =`,number_01);
+console.log(`Now changed variable to number_00 =`,number_01);
+console.log();
+number_01 *= 4;
+console.log(`2 * 4 =`,number_00);
+console.log(`Now changed variable to number_00 =`,number_01);
+console.log();
+number_01 /= 2;
+console.log(`8 / 2 =`,number_01);
+console.log(`Now changed variable to number_00 =`,number_01);
+console.log();
+number_01**= 2;
+console.log(`4 ** 2 =`,number_01);
+console.log(`Now changed variable to number_00 =`,number_01);
+console.log();
+number_01 %= 5;
+console.log(`16 % 5 =`,number_01);
+console.log(`Now changed variable to number_00 =`,number_01);
+console.log();

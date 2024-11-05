@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+    </style>
+    <title>Hello, World</title>
+</head>
+<body>
+    <p>______________________________________</p>
+    <br>
+    <h1>Hello, World</h1>
+    <br>
+    <p>Number Formatting<br>in javascript.</p>
+    <p>______________________________________</p>
+    <script>
+        // Prompt the user to enter a decimal or float number
+        var numero_00 = parseFloat(window.prompt('Type some decimal or float number?'));
+        // Check if the input is a valid number
+        if (isNaN(numero_00)) {
+            document.writeln('Invalid input. Please enter a valid number.');
+        } else {
+            // Fix the number to 2 decimal places
+            var numero_01 = numero_00.toFixed(2);
+            // Replace '.' with ',' for Brazilian formatting
+            var numero_02 = numero_01.replace('.', ',');
+            // Convert the number to Brazilian currency format
+            var numero_03 = numero_00.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            // Display the results
+            document.writeln(`numero 1: ${numero_00}<br>`);
+            document.writeln(`numero 2: ${numero_01}<br>`);
+            document.writeln(`numero 3: ${numero_02}<br>`);
+            document.writeln(`numero 4: ${numero_03}<br>`);
+        }
+    </script>
+</body>
+</html>
